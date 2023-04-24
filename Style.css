@@ -1,0 +1,97 @@
+body{
+    background-image:linear-gradient(100deg, rgb(0, 163, 136), rgb(0, 95, 158));
+}
+header {
+    background-image:linear-gradient(100deg,rgb(0, 95, 158) ,rgb(0, 163, 136));
+    position:absolute;
+    width: 100%;
+    top: 4%;
+    left: 0;
+    height: 65px;
+
+}
+#Container {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.253);
+    margin: none;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    border: 2px solid rgba(0, 0, 0, 0.281);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.CampoMenu{
+    text-align: right;
+    margin: 15px auto;
+    margin-right: 30px;
+}
+.buttonStyle{
+    border-radius: 30px;
+    border: 1px solid rgba(2, 118, 126, 0.658);
+    background-color:rgb(0, 152, 163);
+    color: rgb(231, 239, 248);
+    width: 90px;
+    height: 30px;
+}
+.buttonStyle:hover{
+    background-color: rgb(31, 157, 207);
+    color: rgb(255, 255, 255);
+}
+#containerRegistration{
+    text-align: center;
+    border-radius: 30px;
+    height: auto;
+    margin: 30px ;
+    background-color: rgb(6, 107, 114);
+}
+#containerRegistration h3{
+    margin: 6px 30px;
+    color: rgb(167, 222, 253);
+    font-size: 30px;
+}
+.campoInfo{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #5eb7ff;
+    margin: 5px;
+    border-radius: 0 30px 30px 0;
+    text-align: center;
+    height: 30px;
+    color: antiquewhite;
+}
+.campoInfo:hover{
+    background-color: rgba(95, 194, 240, 0.384);
+}
+#ButtonLogin{
+    margin: 10px 0;
+}
+.table{
+    background-color: rgb(50, 115, 189);
+    margin: 1px 28px;
+    border: 1px solid rgb(29, 80, 138);
+    border-radius: 10px;
+
+}
+.TextValue{
+    color: rgb(118, 230, 230);
+}
+.buttonApagar{
+    border: none;
+    background-color:rgb(0, 163, 136);
+    color: rgb(231, 239, 248);
+    border-radius: 10px;
+    margin: none;
+}
+.buttonApagar:hover{
+    background-color: rgb(31, 157, 207);
+    color: rgba(252, 229, 229, 0.842);
+}
+.table td,th {
+    border: 1px solid rgb(29, 80, 138);
+    border-radius: 5px ;
+    margin: 10px;
+}
